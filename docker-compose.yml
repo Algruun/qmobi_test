@@ -7,6 +7,7 @@ services:
     environment:
       - PORT=${PORT}
       - HOST_NAME=${HOST_NAME}
+      - CURRENCIES_API_KEY=${CURRENCIES_API_KEY}
     ports:
       - ${PORT}:${PORT}
     restart: always
